@@ -1,0 +1,103 @@
+{
+  "departments": [
+    {
+      "id": "dept-1794320837141-8a2ny",
+      "name": "Computer Science and Engineering",
+      "code": "CSE",
+      "hodName": "Dr. M. Shanmugasundaram",
+      "hodEmployeeId": "KVCET-HOD-CSE-01",
+      "hodDesignation": "Professor & Head",
+      "description": "Department of CSE with state-of-the-art AI, Cloud, and Software Engineering laboratories.",
+      "createdAt": "2026-11-10T14:27:17.141Z",
+      "updatedAt": "2026-11-10T14:27:17.141Z"
+    },
+    {
+      "id": "dept-1794321169035-zsiwu",
+      "name": "Electronics and Communication Engineering",
+      "code": "ECE",
+      "hodName": "Dr. R. Vijayakumar",
+      "hodEmployeeId": "KVCET-HOD-ECE-01",
+      "hodDesignation": "Professor & Head",
+      "description": "Department of ECE focusing on Embedded Systems, VLSI, and Wireless Communications.",
+      "createdAt": "2026-11-10T14:32:49.035Z",
+      "updatedAt": "2026-11-10T14:32:49.035Z"
+    }
+  ],
+  "faculty": [
+    {
+      "id": "fac-1794320844860-kbk86",
+      "fullName": "Dr. K. Ramesh",
+      "employeeId": "KVCET-CSE-001",
+      "designation": "Professor",
+      "departmentId": "dept-1794320837141-8a2ny",
+      "departmentCode": "CSE",
+      "departmentName": "Computer Science and Engineering",
+      "email": "k.ramesh@kvcet.edu.in",
+      "contactNumber": "+91 94441 23456",
+      "createdAt": "2026-11-10T14:27:24.860Z",
+      "updatedAt": "2026-11-10T14:27:24.860Z"
+    },
+    {
+      "id": "fac-1794321169015-mm21c",
+      "fullName": "Mrs. S. Priya",
+      "employeeId": "KVCET-CSE-002",
+      "designation": "Associate Professor",
+      "departmentId": "dept-1794320837141-8a2ny",
+      "departmentCode": "CSE",
+      "departmentName": "Computer Science and Engineering",
+      "email": "s.priya@kvcet.edu.in",
+      "contactNumber": "+91 98840 54321",
+      "createdAt": "2026-11-10T14:32:49.015Z",
+      "updatedAt": "2026-11-10T14:32:49.015Z"
+    },
+    {
+      "id": "fac-1794321173511-t4lqa",
+      "fullName": "Dr. M. Arvind",
+      "employeeId": "KVCET-ECE-001",
+      "designation": "Assistant Professor",
+      "departmentId": "dept-1794321169035-zsiwu",
+      "departmentCode": "ECE",
+      "departmentName": "Electronics and Communication Engineering",
+      "email": "m.arvind@kvcet.edu.in",
+      "contactNumber": "+91 97711 88990",
+      "createdAt": "2026-11-10T14:32:53.511Z",
+      "updatedAt": "2026-11-10T14:32:53.511Z"
+    }
+  ],
+  "workloadReports": [
+    {
+      "id": "rep-1794320857073-luymk",
+      "reportTitle": "CSE Workload Progress Report - Mid Term",
+      "departmentId": "dept-1794320837141-8a2ny",
+      "departmentName": "Computer Science and Engineering",
+      "departmentCode": "CSE",
+      "hodName": "Dr. M. Shanmugasundaram",
+      "facultyCount": 1,
+      "facultyNames": [
+        "Dr. K. Ramesh"
+      ],
+      "individualWorkloadDetails": [
+        {
+          "facultyName": "Dr. K. Ramesh",
+          "designation": "Professor",
+          "theoryHours": 8,
+          "labHours": 4,
+          "totalHours": 12,
+          "assignedCourses": "CS25401 Distributed Systems",
+          "progressPercentage": 75,
+          "progressNotes": "Unit 3 complete",
+          "complianceStatus": "Optimal"
+        }
+      ],
+      "workloadProgress": 75,
+      "progressStatus": "In Progress",
+      "submissionDate": "2026-11-10",
+      "academicYear": "2026–2027",
+      "semester": "Even",
+      "submittedBy": "Academic Dean",
+      "createdAt": "2026-11-10T14:27:37.073Z",
+      "updatedAt": "2026-11-10T14:27:37.073Z"
+    }
+  ],
+  "version": 1
+}

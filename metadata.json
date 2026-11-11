@@ -1,0 +1,6 @@
+{
+  "name": "EduLoad - Institutional Workload Management System",
+  "description": "Comprehensive faculty workload calculation, course allocation, administrative credits, timetable compliance, and NBA/AICTE workload auditing for colleges and universities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
